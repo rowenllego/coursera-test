@@ -1,0 +1,47 @@
+#header-nav {
+    background-color: #aaaaaa;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+#collapsable_nav {
+    background-color: white;
+}
+
+#nav-list a{
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#nav-list a:hover {
+    background-color: #aaaaaa;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.menus {
+    background-color: grey;
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    #collapsable_nav {
+        background-color: transparent;
+    }
+    
+}
